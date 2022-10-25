@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+section{
+    width: 700px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px0;
+}
+summary {
+    border: 1px solid #00338D;
+    padding: 7% 2% 7% 3%;
+    font-size: 28px;
+    font-weight: 500;
+    color: #00338D;
+}
+::marker {
+    color: white !important;
+}
+.caja-rif {
+    padding: 11% 0% 22% 0%;
+    border: 1px solid #00338D;
+}
+input {
+    width: 80%;
+    display: block;
+    padding: 5% 0% 5% 2%;
+    border: 1px solid #676767;
+    align-content: center;
+    margin: 4% 0% 7% 9%;
+}
+button {
+    margin: 0% 0% 0% 9%;
+    padding: 6% 33% 6% 27%;
+    font-size: 28px;
+    background: #fff;
+    color: #00338D;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+.caja-cep {
+    display: block;
+    margin-top: 7%;
+}
+label {
+    font-size: 20px;
+    font-family: 'Poppins';
+    color: #00338D;
+    margin: 9%;
+}
